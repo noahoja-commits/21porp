@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://api.you.com/mcp",
       "headers": {
-        "X-API-Key": "${YDC_API_KEY}"
+        "Authorization": "Bearer ${YDC_API_KEY}"
       }
     }
   }
